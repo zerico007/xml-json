@@ -14,6 +14,7 @@ const isFirstKeyAttribute = (obj) => {
 /** Get value of first propery from an object */
 const getValue = (obj: object) => {
   const firstValueOfObject = Object.values(obj)[0];
+  
   //Check if object is empty
   if (!Object.keys(obj).length) return null;
 
