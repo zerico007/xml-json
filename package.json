@@ -1,0 +1,27 @@
+{
+  "name": "xml-json-format",
+  "version": "1.0.4",
+  "description": "Convert xml string to neatly formatted JSON object",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "xml",
+    "JSON",
+    "JavaScript",
+    "javascript"
+  ],
+  "author": "Bavin Edwards",
+  "license": "ISC",
+  "dependencies": {
+    "xml-js": "^1.6.11"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
