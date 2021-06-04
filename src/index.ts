@@ -30,6 +30,7 @@ const getValue = (obj: object) => {
     if (typeof firstValueOfObject === "object")
       return formatObject(firstValueOfObject);
   } else if (Object.keys(obj).length > 1) {
+    if (typeof obj === "string") return obj;
     return formatObject(obj);
   }
 };
