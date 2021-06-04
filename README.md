@@ -1,8 +1,8 @@
 # xml-json-format
 
-![XML](./images/xml-example.jpg)
+![XML](http://zerico007.github.io/xml-json/images/xml-example.jpg)
 
-![JSON](./images/json-example.jpg)
+![JSON](http://zerico007.github.io/xml-json/images/json-example.jpg)
 
 # Installation
 # USAGE
