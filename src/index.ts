@@ -6,9 +6,7 @@ const convertToJSON = (xml: string) =>
 
 const isFirstKeyAttribute = (obj) => {
   const firstKey = Object.keys(obj)[0];
-  if (firstKey === "_attributes") {
-    return true;
-  } else return false;
+  return firstKey === "_attributes";
 };
 
 /** Get value of first propery from an object */
@@ -58,3 +56,5 @@ const toJSON = (xml: string) => {
 };
 
 export default toJSON;
+
+
